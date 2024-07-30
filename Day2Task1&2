@@ -133,3 +133,6 @@ VALUES
   WHERE EmployeeID=2;
 SELECT FirstName,LastName,Salary FROM Employees
 ORDER BY Salary DESC LIMIT 3;
+
+SELECT FirstName,LastName,Salary FROM Employees
+ORDER BY Salary ASC LIMIT 3;
