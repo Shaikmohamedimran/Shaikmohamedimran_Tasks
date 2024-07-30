@@ -131,3 +131,5 @@ VALUES
   UPDATE Employees
   SET Email='john.doe@company.com'
   WHERE EmployeeID=2;
+SELECT FirstName,LastName,Salary FROM Employees
+ORDER BY Salary DESC LIMIT 3;
